@@ -10,9 +10,7 @@ void main() {
         backgroundColor: Colors.blueGrey[900],
       ),
       body: Center(
-        child: Image(
-            image:
-                NetworkImage("https://static.toiimg.com/photo/95175519.cms")),
+        child: Image(image: AssetImage("images/diamond.png")),
       ),
     )),
   );

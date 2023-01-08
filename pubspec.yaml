@@ -41,10 +41,12 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+#    - images/diamond.png this is only specific to one file but we can just enter a folder name and have all contents of the folder to be part of the assets
+    - images/
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
-    - images/diamond.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
